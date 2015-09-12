@@ -1,0 +1,6 @@
+C:\Users\Joe\Documents\Projects\AdventureGame\AdventureGame\bin\Debug\AdventureGame.exe.config
+C:\Users\Joe\Documents\Projects\AdventureGame\AdventureGame\bin\Debug\AdventureGame.exe
+C:\Users\Joe\Documents\Projects\AdventureGame\AdventureGame\bin\Debug\AdventureGame.pdb
+C:\Users\Joe\Documents\Projects\AdventureGame\AdventureGame\obj\Debug\AdventureGame.csprojResolveAssemblyReference.cache
+C:\Users\Joe\Documents\Projects\AdventureGame\AdventureGame\obj\Debug\AdventureGame.exe
+C:\Users\Joe\Documents\Projects\AdventureGame\AdventureGame\obj\Debug\AdventureGame.pdb
