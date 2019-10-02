@@ -15,19 +15,19 @@ namespace AdventureGame
             while (Game.Playing)
             {
                 Console.WriteLine("Please enter the name of your new Hero: ");
-                string Name = Console.ReadLine();
+                string name = Console.ReadLine();
 
-                Hero Hero = new Hero();
-                Hero.Name = Name;
+                var hero = new Hero();
+                hero.Name = name;
 
-                Console.WriteLine("Your name is: "+Hero.Name);
+                Console.WriteLine($"Your name is: {hero.Name}");
                 Console.WriteLine("What would you like to do: \n"
                                   +"\t 1.) Go into town\n"
                                   +"\t 2.) Go into the forest\n");
                 switch (Console.ReadLine())
                 {
                     case "1":
-                        Game.goToTown( "Belmont" );
+                        Game.GoToTown( "Belmont" );
                         break;
                     default:
                         Console.WriteLine("Thank you for playing the game");
@@ -47,9 +47,9 @@ namespace AdventureGame
             
         }
         public void Save() { }
-        public void goToTown( string TownName )
+        public void GoToTown( string townName )
         {
-            Console.WriteLine("Welcome to " + TownName + ". What would you like to do? \n"
+            Console.WriteLine($"Welcome to {townName}. What would you like to do? \n"
                                + "\t 1.) Shop\n"
                                + "\t 2.) Heal\n"
                                + "\t 3.) Rest\n" 
